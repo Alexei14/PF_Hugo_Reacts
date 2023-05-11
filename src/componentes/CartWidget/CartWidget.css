@@ -1,0 +1,28 @@
+.CartWidget {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .CartIcon {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .CartQuantity {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f38e37;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
+  
